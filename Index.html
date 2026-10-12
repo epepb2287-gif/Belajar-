@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animein (39.09MB) - MediaFire</title>
+    <!-- Tailwind CSS untuk styling cepat dan presisi -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome untuk ikon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-gray-100 text-gray-800 font-sans">
+
+    <!-- Header / Navbar -->
+    <header class="bg-white border-b border-gray-200 py-3 px-4 flex justify-between items-center shadow-sm">
+        <div class="flex items-center space-x-2">
+            <!-- Logo MediaFire Stylized -->
+            <div class="text-blue-600 text-2xl font-black tracking-tighter flex items-center">
+                <i class="fa-solid fa-cloud text-blue-500 text-3xl"></i>
+            </div>
+        </div>
+        <div class="flex items-center space-x-2">
+            <div class="border border-gray-300 px-2 py-1 rounded text-xs flex items-center space-x-1">
+                <span class="w-4 h-3 bg-red-600 inline-block relative overflow-hidden">
+                    <span class="absolute inset-0 bg-blue-800 h-1/2"></span>
+                </span>
+                <i class="fa-solid fa-chevron-down text-[10px] text-gray-500"></i>
+            </div>
+            <a href="#" class="bg-blue-600 hover:bg-blue-700 text-white text-xs font-bold px-3 py-1.5 rounded transition">SIGN UP</a>
+            <a href="#" class="bg-blue-600 hover:bg-blue-700 text-white text-xs font-bold px-3 py-1.5 rounded transition">LOG IN</a>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <main class="max-w-md mx-auto p-4 space-y-4">
+
+        <!-- Download Box Utama -->
+        <div class="bg-white shadow-md rounded-lg overflow-hidden border border-gray-200">
+            <!-- Bagian Atas Kotak (Biru) -->
+            <div class="bg-blue-600 p-4 text-white flex items-center justify-between">
+                <div class="flex items-center space-x-3 overflow-hidden">
+                    <div class="bg-white p-2 rounded text-orange-500 flex-shrink-0 shadow">
+                        <i class="fa-solid fa-file-zipper text-2xl"></i>
+                    </div>
+                    <div class="truncate">
+                        <h1 class="font-bold text-base truncate">animein</h1>
+                        <p class="text-xs text-blue-100">Download (39.09MB)</p>
+                    </div>
+                </div>
+                <div class="text-white text-xl flex-shrink-0 pl-2">
+                    <i class="fa-solid fa-download"></i>
+                </div>
+            </div>
+            <!-- Bagian Bawah Kotak (Tombol Faster Download & Iklan) -->
+            <div class="bg-gray-900 p-3 flex flex-col items-center justify-center">
+                <button class="bg-blue-600 hover:bg-blue-500 text-white font-bold text-xs py-2 px-6 rounded uppercase tracking-wider shadow transition">
+                    Download Faster Now!
+                </button>
+                <p class="text-[11px] text-gray-400 mt-2 text-center">
+                    A message from our advertisers will show in the previous tab.
+                </p>
+            </div>
+        </div>
+
+        <!-- Tombol Share & Save -->
+        <div class="bg-white shadow-sm rounded-lg border border-gray-200 flex divide-x divide-gray-200 py-3 text-center text-xs text-gray-600">
+            <button class="w-1/2 flex flex-col items-center justify-center hover:text-blue-600 transition">
+                <i class="fa-solid fa-share-nodes text-base mb-1 text-gray-500"></i>
+                <span>Share options</span>
+            </button>
+            <button class="w-1/2 flex flex-col items-center justify-center hover:text-blue-600 transition">
+                <i class="fa-solid fa-plus text-base mb-1 text-gray-500"></i>
+                <span>Save to My Files</span>
+            </button>
+        </div>
+
+        <!-- Slot Iklan / Banner Biru Tengah -->
+        <div class="w-full h-32 bg-sky-400 rounded flex items-start p-2 shadow-inner">
+            <span class="bg-gray-800 bg-opacity-40 text-white text-[10px] px-1.5 py-0.5 rounded">Upload region</span>
+        </div>
+
+        <!-- Informasi Waktu Upload -->
+        <p class="text-xs text-gray-500 text-center">
+            This file was uploaded on July 7, 2026 at 10:04 PM
+        </p>
+
+        <!-- VirusTotal Scan Section -->
+        <div class="bg-white p-4 shadow-sm rounded-lg border border-gray-200 space-y-2">
+            <div class="flex items-center space-x-2">
+                <!-- Logo Sigma / VirusTotal mock -->
+                <div class="border border-blue-600 text-blue-600 font-bold px-2 py-0.5 text-sm tracking-widest">
+                    Σ
+                </div>
+                <span class="font-bold text-sm text-gray-800">VirusTotal scan</span>
+            </div>
+            <p class="text-xs text-gray-600 leading-relaxed">
+                <span class="text-green-600 font-bold">0/33</span> engines detected this file. MediaFire scans high-risk files using VirusTotal.
+            </p>
+        </div>
+
+        <!-- About MediaFire Section -->
+        <div class="bg-white p-4 shadow-sm rounded-lg border border-gray-200 space-y-2">
+            <div class="flex items-center space-x-2">
+                <div class="w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center text-white">
+                    <i class="fa-solid fa-cloud text-sm"></i>
+                </div>
+                <h3 class="font-bold text-sm text-gray-800">About MediaFire</h3>
+            </div>
+            <p class="text-xs text-gray-600 leading-relaxed">
+                Welcome!<br>
+                With MediaFire, you get simple yet powerful file storage along with features you won't find anywhere else. <a href="#" class="text-blue-600 hover:underline">Learn more</a>
+            </p>
+        </div>
+
+        <!-- Download Application Section (Chrome) -->
+        <div class="bg-white p-4 shadow-sm rounded-lg border border-gray-200 space-y-2">
+            <div class="flex items-center space-x-2">
+                <!-- Ikon Chrome Sederhana -->
+                <div class="w-8 h-8 flex items-center justify-center">
+                    <i class="fa-brands fa-chrome text-2xl text-yellow-500"></i>
+                </div>
+                <h3 class="font-bold text-sm text-gray-800">Download application</h3>
+            </div>
+            <p class="text-xs text-gray-600 leading-relaxed">
+                Chrome<br>
+                You are downloading this file with Chrome.
+            </p>
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-100 border-t border-gray-200 mt-8 py-6 px-4 text-[11px] text-gray-500 space-y-4">
+        <div class="max-w-md mx-auto space-y-3">
+            <div>
+                <p class="font-bold text-gray-700 uppercase mb-1">Company</p>
+                <div class="flex flex-wrap gap-x-4 gap-y-1">
+                    <a href="#" class="hover:underline">About Us</a>
+                    <a href="#" class="hover:underline">Careers</a>
+                    <a href="#" class="hover:underline">Press</a>
+                    <a href="#" class="hover:underline">Company Blog</a>
+                </div>
+            </div>
+
+            <div>
+                <p class="font-bold text-gray-700 uppercase mb-1">Tools</p>
+                <div class="flex flex-wrap gap-x-4 gap-y-1">
+                    <a href="#" class="hover:underline">MediaFire Mobile</a>
+                    <a href="#" class="hover:underline">Test Sharing for AI Workflows</a>
+                </div>
+            </div>
+
+            <div>
+                <p class="font-bold text-gray-700 uppercase mb-1">Upgrade</p>
+                <a href="#" class="hover:underline block">Professional</a>
+            </div>
+
+            <div>
+                <p class="font-bold text-gray-700 uppercase mb-1">Support</p>
+                <a href="#" class="hover:underline block">Get Support</a>
+            </div>
+
+            <div class="border-t border-gray-300 pt-4 flex flex-col space-y-2">
+                <p>©2026 MediaFire Build 121967</p>
+                <div class="flex flex-wrap gap-x-3 gap-y-1">
+                    <a href="#" class="hover:underline">Advertising</a>
+                    <a href="#" class="hover:underline">Terms</a>
+                    <a href="#" class="hover:underline">Privacy Policy</a>
+                    <a href="#" class="hover:underline">Copyright</a>
+                    <a href="#" class="hover:underline">Abuse</a>
+                    <a href="#" class="hover:underline">Credits</a>
+                    <a href="#" class="hover:underline">More...</a>
+                </div>
+                <div class="flex space-x-2 pt-2">
+                    <a href="#" class="w-6 h-6 bg-gray-300 text-gray-700 flex items-center justify-center rounded"><i class="fa-brands fa-facebook-f text-xs"></i></a>
+                    <a href="#" class="hover:bg-gray-400 w-6 h-6 bg-gray-300 text-gray-700 flex items-center justify-center rounded"><i class="fa-brands fa-twitter text-xs"></i></a>
+                    <a href="#" class="hover:bg-gray-400 w-6 h-6 bg-gray-300 text-gray-700 flex items-center justify-center rounded"><i class="fa-solid fa-b text-xs"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+  </html>
+                      
